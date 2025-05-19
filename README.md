@@ -1,31 +1,36 @@
 🚀 Nanoprocessor (VHDL-Based Design)
+
+
+
 A simple VHDL-based 8-bit nanoprocessor designed for implementation on Xilinx FPGA boards. This project supports basic instructions like MOVI, ADD, and JZR, and includes a test program to compute the sum of integers from 1 to 3.
 
+
+
+
+
 📁 File Structure
-graphql
-Copy
-Edit
-nanoprocessor/
-├── nanoprocessor.xpr             # Vivado project file
-├── nanoprocessor.srcs/           # Source directory
-│   ├── alu.vhd                   # Arithmetic Logic Unit
-│   ├── control_unit.vhd          # Control Unit
-│   ├── datapath.vhd              # Datapath Module
-│   ├── instruction_memory.vhd    # ROM: Program Instructions
-│   ├── register_file.vhd         # Register Bank
-│   ├── top.vhd                   # Top-Level Design
-│   └── ...                       # Add other VHDL source files here
-├── nanoprocessor.sim/            # Simulation setup
-│   ├── testbench.vhd             # Simulation testbench
-│   └── waveform.wcfg             # Optional waveform configuration
-├── README.md
-└── sum_program.asm               # Assembly code example
-✅ Make sure to update the nanoprocessor.srcs/ section with your actual VHDL module filenames.
+
+        nanoprocessor/
+        ├── nanoprocessor.xpr             # Vivado project file
+        ├── nanoprocessor.srcs/           # Source directory
+        │   ├── alu.vhd                   # Arithmetic Logic Unit
+        │   ├── control_unit.vhd          # Control Unit
+        │   ├── datapath.vhd              # Datapath Module
+        │   ├── instruction_memory.vhd    # ROM: Program Instructions
+        │   ├── register_file.vhd         # Register Bank
+        │   ├── top.vhd                   # Top-Level Design
+        │   └── ...                       # Add other VHDL source files here
+        ├── nanoprocessor.sim/            # Simulation setup
+        │   ├── testbench.vhd             # Simulation testbench
+        │   └── waveform.wcfg             # Optional waveform configuration
+        ├── README.md
+        └── sum_program.asm               # Assembly code example
+        ✅ Make sure to update the nanoprocessor.srcs/ section with your actual VHDL module filenames.
 
 🧰 Prerequisites
 Xilinx Vivado Design Suite (e.g., version 2019.1 or newer)
 
-FPGA Board: e.g., Digilent Basys 3
+FPGA Board: e.g.,Basys 3
 
 Optional: A UART interface or display modules for visual output
 
