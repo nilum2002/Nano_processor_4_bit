@@ -87,4 +87,5 @@ ADD  R7, R2     ; R7 <- R7 + R2 (R7 = 1 + 2 = 3)
 ADD  R7, R3     ; R7 <- R7 + R3 (R7 = 3 + 3 = 6)
 JZR  R0, 7      ; Infinite loop to halt (R0 is always 0)
 📄 This code is usually stored in your instruction ROM (instruction_memory.vhd) in binary or hex format.
+![image](https://github.com/user-attachments/assets/92c44a16-bd4f-41c5-93b1-732c0f5be3d5)
 
