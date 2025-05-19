@@ -1,0 +1,27 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../nanoprocessor.srcs/sources_1/new/Adder_3_Bit.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/imports/new/Arithmatic_Unit.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/imports/new/D_FF.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/imports/new/FA.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/imports/new/HA.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/imports/new/LUT_16_7.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/new/MUX_2_W_3.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/new/MUX_2_W_4.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/new/MUX_2_to_1.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/new/MUX_8_W_4.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/imports/new/Mux_8_to_1.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/new/P_Counter.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/new/Program_Rom.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/imports/new/RCA_4.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/new/Register_4_Bit.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/new/Register_Bank.vhd" \
+"../../../../nanoprocessor.srcs/sources_1/imports/new/Slow_Clk.vhd" \
+"../../../../nanoprocessor.srcs/sim_1/new/TB_Nanoprocessor.vhd" \
+
+# Do not sort compile order
+nosort
