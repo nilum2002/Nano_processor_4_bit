@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/constrs_1/imports/Labs/Basys3Labs.xdc rfile:../../../Lab9-10.srcs/constrs_1/imports/Labs/Basys3Labs.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/constrs_1/imports/Labs/Basys3Labs.xdc} rfile:../../../nanoprocessor.srcs/constrs_1/imports/Labs/Basys3Labs.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports Clk]
 set_property src_info {type:XDC file:1 line:47 export:INPUT save:INPUT read:READ} [current_design]

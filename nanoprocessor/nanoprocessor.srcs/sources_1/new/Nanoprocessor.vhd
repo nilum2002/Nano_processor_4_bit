@@ -90,12 +90,12 @@ component MUX_2_W_3
            Q : out STD_LOGIC_VECTOR (2 downto 0));
 end component;
 
-component Arithmatic_Unit 
+component AddSub4bit 
     Port ( A : in STD_LOGIC_VECTOR (3 downto 0);
            B : in STD_LOGIC_VECTOR (3 downto 0);
-           Sel : in STD_LOGIC;
-           S : out STD_LOGIC_VECTOR (3 downto 0);
-           Carry : out STD_LOGIC;
+           Op : in STD_LOGIC;
+           Q : out STD_LOGIC_VECTOR (3 downto 0);
+           Overflow: out STD_LOGIC;
            Zero : out STD_LOGIC);
 end component;
 
@@ -225,14 +225,14 @@ Port map (
            S => mux_2,
            Q => data2);
 
-Arithmati_Unit_0 : Arithmatic_Unit
+AddSub4bit_0: AddSub4bit
 Port map( 
            A => data1,
            B => data2,
-           Sel => sub,
-           S => result,
+           Op => sub,
+           Q => result,
            Zero => Zero,
-           Carry => Overflow);
+           Overflow => Overflow);
 
 Adder_3_Bit_0 : Adder_3_Bit
 Port map ( 

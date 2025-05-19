@@ -44,7 +44,7 @@ begin
         if (rising_edge(Clk_in)) then
             count <= count+1;
             --if (count=50000000) then --for 1Hz clock
-            if (count=4) then --<- simulation
+            if (count=50000000) then --<- simulation
                 clk_status <= NOT (clk_status);
                 Clk_out <= clk_status;
                 count <= 1;

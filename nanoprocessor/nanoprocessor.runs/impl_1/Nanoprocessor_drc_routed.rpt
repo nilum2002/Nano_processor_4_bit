@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date         : Wed Aug 17 20:51:50 2022
-| Host         : DESKTOP-TD125N3 running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Mon May 19 12:17:53 2025
+| Host         : LAPTOP-05AEB210 running 64-bit major release  (build 9200)
 | Command      : report_drc -file Nanoprocessor_drc_routed.rpt -pb Nanoprocessor_drc_routed.pb -rpx Nanoprocessor_drc_routed.rpx
 | Design       : Nanoprocessor
 | Device       : xc7a35tcpg236-1
@@ -54,22 +54,22 @@ Related violations: <none>
 
 PDRC-153#2 Warning
 Gated clock check  
-Net P_Counter_0/D_FF_1/Q_reg[0][0] is a gated clock net sourced by a combinational pin P_Counter_0/D_FF_1/MSel1_reg[2]_i_2/O, cell P_Counter_0/D_FF_1/MSel1_reg[2]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net P_Counter_0/D_FF_1/Q_reg[3]_2[0] is a gated clock net sourced by a combinational pin P_Counter_0/D_FF_1/MSel2_reg[1]_i_2/O, cell P_Counter_0/D_FF_1/MSel2_reg[1]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#3 Warning
 Gated clock check  
-Net P_Counter_0/D_FF_2/E[0] is a gated clock net sourced by a combinational pin P_Counter_0/D_FF_2/LoadSel_reg_i_3/O, cell P_Counter_0/D_FF_2/LoadSel_reg_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net P_Counter_0/D_FF_1/Q_reg[3]_3[0] is a gated clock net sourced by a combinational pin P_Counter_0/D_FF_1/MSel1_reg[2]_i_2/O, cell P_Counter_0/D_FF_1/MSel1_reg[2]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#4 Warning
 Gated clock check  
-Net P_Counter_0/D_FF_2/Q_reg[2][0] is a gated clock net sourced by a combinational pin P_Counter_0/D_FF_2/MSel2_reg[1]_i_2/O, cell P_Counter_0/D_FF_2/MSel2_reg[1]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net P_Counter_0/D_FF_2/E[0] is a gated clock net sourced by a combinational pin P_Counter_0/D_FF_2/LoadSel_reg_i_3/O, cell P_Counter_0/D_FF_2/LoadSel_reg_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#5 Warning
 Gated clock check  
-Net Register_Bank_0/Reg_7/Q_reg is a gated clock net sourced by a combinational pin Register_Bank_0/Reg_7/Address_reg[2]_i_1/O, cell Register_Bank_0/Reg_7/Address_reg[2]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net Register_Bank_0/Reg_2/Q_reg is a gated clock net sourced by a combinational pin Register_Bank_0/Reg_2/Address_reg[2]_i_1/O, cell Register_Bank_0/Reg_2/Address_reg[2]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 

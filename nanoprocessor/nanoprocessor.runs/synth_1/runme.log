@@ -3,9 +3,9 @@
     with args -log Nanoprocessor.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Nanoprocessor.tcl
 
 
-****** Vivado v2018.2 (64-bit)
-  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
-  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 
 source Nanoprocessor.tcl -notrace
@@ -14,108 +14,103 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 4608 
+INFO: Helper process launched with PID 32616 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 381.676 ; gain = 96.875
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 435.438 ; gain = 96.012
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Nanoprocessor' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:44]
-INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Slow_Clk.vhd:34' bound to instance 'Slow_Clk_0' of component 'Slow_Clk' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:146]
-INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
-INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
-INFO: [Synth 8-3491] module 'P_Counter' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/P_Counter.vhd:34' bound to instance 'P_Counter_0' of component 'P_Counter' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:152]
-INFO: [Synth 8-638] synthesizing module 'P_Counter' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/P_Counter.vhd:41]
-INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_0' of component 'D_FF' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/P_Counter.vhd:53]
-INFO: [Synth 8-638] synthesizing module 'D_FF' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/D_FF.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'D_FF' (2#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/D_FF.vhd:42]
-INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_1' of component 'D_FF' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/P_Counter.vhd:60]
-INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_2' of component 'D_FF' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/P_Counter.vhd:67]
-INFO: [Synth 8-256] done synthesizing module 'P_Counter' (3#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/P_Counter.vhd:41]
-INFO: [Synth 8-3491] module 'Program_Rom' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Program_Rom.vhd:34' bound to instance 'Program_Rom_0' of component 'Program_Rom' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:160]
-INFO: [Synth 8-638] synthesizing module 'Program_Rom' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Program_Rom.vhd:39]
-INFO: [Synth 8-256] done synthesizing module 'Program_Rom' (4#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Program_Rom.vhd:39]
-INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Instruction_Decoder.vhd:34' bound to instance 'Instruction_Decoder_0' of component 'Instruction_Decoder' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:165]
-INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Instruction_Decoder.vhd:47]
-INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (5#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Instruction_Decoder.vhd:47]
-INFO: [Synth 8-3491] module 'MUX_2_W_4' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_4.vhd:34' bound to instance 'MUX_2_W_4_0' of component 'MUX_2_W_4' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:178]
-INFO: [Synth 8-638] synthesizing module 'MUX_2_W_4' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_4.vhd:41]
-INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_0' of component 'MUX_2_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_4.vhd:51]
-INFO: [Synth 8-638] synthesizing module 'MUX_2_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_to_1.vhd:41]
-INFO: [Synth 8-256] done synthesizing module 'MUX_2_to_1' (6#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_to_1.vhd:41]
-INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_1' of component 'MUX_2_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_4.vhd:58]
-INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_2' of component 'MUX_2_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_4.vhd:65]
-INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_3' of component 'MUX_2_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_4.vhd:72]
-INFO: [Synth 8-256] done synthesizing module 'MUX_2_W_4' (7#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_4.vhd:41]
-INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:34' bound to instance 'Register_Bank_0' of component 'Register_Bank' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:187]
-INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:49]
-INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:69]
-INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:40]
-INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:35' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:53]
-INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:41]
-INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (8#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:41]
-INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:35' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:61]
-INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (9#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:40]
-INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_0' of component 'Register_4_Bit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:76]
-INFO: [Synth 8-638] synthesizing module 'Register_4_Bit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_4_Bit.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'Register_4_Bit' (10#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_4_Bit.vhd:42]
-INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_1' of component 'Register_4_Bit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:85]
-INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_2' of component 'Register_4_Bit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:94]
-INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_3' of component 'Register_4_Bit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:103]
-INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_4' of component 'Register_4_Bit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:112]
-INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_5' of component 'Register_4_Bit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:121]
-INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_6' of component 'Register_4_Bit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:130]
-INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_7' of component 'Register_4_Bit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:139]
-INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (11#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Register_Bank.vhd:49]
-INFO: [Synth 8-3491] module 'MUX_8_W_4' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_8_W_4.vhd:34' bound to instance 'MUX_8_W_4_0' of component 'MUX_8_W_4' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:202]
-INFO: [Synth 8-638] synthesizing module 'MUX_8_W_4' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_8_W_4.vhd:47]
-INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_0' of component 'Mux_8_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_8_W_4.vhd:58]
-INFO: [Synth 8-638] synthesizing module 'Mux_8_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Mux_8_to_1.vhd:41]
-INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decorder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Mux_8_to_1.vhd:54]
-INFO: [Synth 8-256] done synthesizing module 'Mux_8_to_1' (12#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Mux_8_to_1.vhd:41]
-INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_1' of component 'Mux_8_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_8_W_4.vhd:71]
-INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_2' of component 'Mux_8_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_8_W_4.vhd:84]
-INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_3' of component 'Mux_8_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_8_W_4.vhd:97]
-INFO: [Synth 8-256] done synthesizing module 'MUX_8_W_4' (13#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_8_W_4.vhd:47]
-INFO: [Synth 8-3491] module 'MUX_8_W_4' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_8_W_4.vhd:34' bound to instance 'MUX_8_W_4_1' of component 'MUX_8_W_4' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:215]
-INFO: [Synth 8-3491] module 'Arithmatic_Unit' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Arithmatic_Unit.vhd:34' bound to instance 'Arithmati_Unit_0' of component 'Arithmatic_Unit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:228]
-INFO: [Synth 8-638] synthesizing module 'Arithmatic_Unit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Arithmatic_Unit.vhd:43]
-INFO: [Synth 8-3491] module 'MUX_2_W_4' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_4.vhd:34' bound to instance 'MUX_2_W_4_0' of component 'MUX_2_W_4' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Arithmatic_Unit.vhd:64]
-INFO: [Synth 8-3491] module 'RCA_4' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/RCA_4.vhd:35' bound to instance 'RCA_4_0' of component 'RCA_4' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Arithmatic_Unit.vhd:73]
-INFO: [Synth 8-638] synthesizing module 'RCA_4' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/RCA_4.vhd:43]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/RCA_4.vhd:58]
-INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/FA.vhd:42]
-INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/HA.vhd:36' bound to instance 'HA_0' of component 'HA' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/FA.vhd:53]
-INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/HA.vhd:43]
-INFO: [Synth 8-256] done synthesizing module 'HA' (14#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/HA.vhd:43]
-INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/HA.vhd:36' bound to instance 'HA_1' of component 'HA' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/FA.vhd:59]
-INFO: [Synth 8-256] done synthesizing module 'FA' (15#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/FA.vhd:42]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/RCA_4.vhd:66]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/RCA_4.vhd:74]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/RCA_4.vhd:82]
-INFO: [Synth 8-256] done synthesizing module 'RCA_4' (16#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/RCA_4.vhd:43]
-WARNING: [Synth 8-614] signal 'overflow' is read in the process but is not in the sensitivity list [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Arithmatic_Unit.vhd:87]
-INFO: [Synth 8-256] done synthesizing module 'Arithmatic_Unit' (17#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/Arithmatic_Unit.vhd:43]
-INFO: [Synth 8-3491] module 'Adder_3_Bit' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Adder_3_Bit.vhd:34' bound to instance 'Adder_3_Bit_0' of component 'Adder_3_Bit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:237]
-INFO: [Synth 8-638] synthesizing module 'Adder_3_Bit' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Adder_3_Bit.vhd:39]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Adder_3_Bit.vhd:53]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Adder_3_Bit.vhd:61]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Adder_3_Bit.vhd:69]
-INFO: [Synth 8-256] done synthesizing module 'Adder_3_Bit' (18#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Adder_3_Bit.vhd:39]
-INFO: [Synth 8-3491] module 'MUX_2_W_3' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_3.vhd:34' bound to instance 'MUX_2_W_3_0' of component 'MUX_2_W_3' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:242]
-INFO: [Synth 8-638] synthesizing module 'MUX_2_W_3' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_3.vhd:41]
-INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_0' of component 'MUX_2_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_3.vhd:52]
-INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_1' of component 'MUX_2_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_3.vhd:59]
-INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_2' of component 'MUX_2_to_1' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_3.vhd:66]
-INFO: [Synth 8-256] done synthesizing module 'MUX_2_W_3' (19#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/MUX_2_W_3.vhd:41]
-INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/LUT_16_7.vhd:35' bound to instance 'LUT_16_7_0' of component 'LUT_16_7' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:249]
-INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/LUT_16_7.vhd:40]
-INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (20#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/LUT_16_7.vhd:40]
-INFO: [Synth 8-256] done synthesizing module 'Nanoprocessor' (21#1) [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Nanoprocessor.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'Nanoprocessor' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:44]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Slow_Clk.vhd:34' bound to instance 'Slow_Clk_0' of component 'Slow_Clk' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-3491] module 'P_Counter' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/P_Counter.vhd:34' bound to instance 'P_Counter_0' of component 'P_Counter' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'P_Counter' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/P_Counter.vhd:41]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_0' of component 'D_FF' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/P_Counter.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'D_FF' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/D_FF.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'D_FF' (2#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/D_FF.vhd:42]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_1' of component 'D_FF' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/P_Counter.vhd:60]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_2' of component 'D_FF' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/P_Counter.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'P_Counter' (3#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/P_Counter.vhd:41]
+INFO: [Synth 8-3491] module 'Program_Rom' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Program_Rom.vhd:34' bound to instance 'Program_Rom_0' of component 'Program_Rom' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'Program_Rom' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Program_Rom.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Program_Rom' (4#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Program_Rom.vhd:39]
+INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd:34' bound to instance 'Instruction_Decoder_0' of component 'Instruction_Decoder' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (5#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd:47]
+INFO: [Synth 8-3491] module 'MUX_2_W_4' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_4.vhd:34' bound to instance 'MUX_2_W_4_0' of component 'MUX_2_W_4' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_W_4' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_4.vhd:41]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_0' of component 'MUX_2_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_4.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_to_1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_to_1' (6#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_1' of component 'MUX_2_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_4.vhd:58]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_2' of component 'MUX_2_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_4.vhd:65]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_3' of component 'MUX_2_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_4.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_W_4' (7#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_4.vhd:41]
+INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:34' bound to instance 'Register_Bank_0' of component 'Register_Bank' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:187]
+INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:49]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:35' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (8#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:41]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:35' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (9#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_0' of component 'Register_4_Bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'Register_4_Bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_4_Bit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Register_4_Bit' (10#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_4_Bit.vhd:42]
+INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_1' of component 'Register_4_Bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:85]
+INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_2' of component 'Register_4_Bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:94]
+INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_3' of component 'Register_4_Bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:103]
+INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_4' of component 'Register_4_Bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:112]
+INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_5' of component 'Register_4_Bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:121]
+INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_6' of component 'Register_4_Bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:130]
+INFO: [Synth 8-3491] module 'Register_4_Bit' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_4_Bit.vhd:34' bound to instance 'Reg_7' of component 'Register_4_Bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:139]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (11#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd:49]
+INFO: [Synth 8-3491] module 'MUX_8_W_4' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_W_4.vhd:34' bound to instance 'MUX_8_W_4_0' of component 'MUX_8_W_4' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:202]
+INFO: [Synth 8-638] synthesizing module 'MUX_8_W_4' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_W_4.vhd:47]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_0' of component 'Mux_8_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_W_4.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decorder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Mux_8_to_1.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_to_1' (12#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_1' of component 'Mux_8_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_W_4.vhd:71]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_2' of component 'Mux_8_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_W_4.vhd:84]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_3' of component 'Mux_8_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_W_4.vhd:97]
+INFO: [Synth 8-256] done synthesizing module 'MUX_8_W_4' (13#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_W_4.vhd:47]
+INFO: [Synth 8-3491] module 'MUX_8_W_4' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_W_4.vhd:34' bound to instance 'MUX_8_W_4_1' of component 'MUX_8_W_4' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:215]
+INFO: [Synth 8-3491] module 'AddSub4bit' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:34' bound to instance 'AddSub4bit_0' of component 'AddSub4bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:228]
+INFO: [Synth 8-638] synthesizing module 'AddSub4bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:43]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA0' of component 'FA' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/HA.vhd:36' bound to instance 'HA_0' of component 'HA' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/HA.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'HA' (14#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/HA.vhd:43]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/HA.vhd:36' bound to instance 'HA_1' of component 'HA' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'FA' (15#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA1' of component 'FA' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:71]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA2' of component 'FA' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:80]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA3' of component 'FA' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'AddSub4bit' (16#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:43]
+INFO: [Synth 8-3491] module 'Adder_3_Bit' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Adder_3_Bit.vhd:34' bound to instance 'Adder_3_Bit_0' of component 'Adder_3_Bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:237]
+INFO: [Synth 8-638] synthesizing module 'Adder_3_Bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Adder_3_Bit.vhd:39]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Adder_3_Bit.vhd:53]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Adder_3_Bit.vhd:61]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Adder_3_Bit.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'Adder_3_Bit' (17#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Adder_3_Bit.vhd:39]
+INFO: [Synth 8-3491] module 'MUX_2_W_3' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_3.vhd:34' bound to instance 'MUX_2_W_3_0' of component 'MUX_2_W_3' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:242]
+INFO: [Synth 8-638] synthesizing module 'MUX_2_W_3' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_3.vhd:41]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_0' of component 'MUX_2_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_3.vhd:52]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_1' of component 'MUX_2_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_3.vhd:59]
+INFO: [Synth 8-3491] module 'MUX_2_to_1' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_to_1.vhd:34' bound to instance 'MUX_2_to_1_2' of component 'MUX_2_to_1' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_3.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2_W_3' (18#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_W_3.vhd:41]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/LUT_16_7.vhd:35' bound to instance 'LUT_16_7_0' of component 'LUT_16_7' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:249]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/LUT_16_7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (19#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/LUT_16_7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Nanoprocessor' (20#1) [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Nanoprocessor.vhd:44]
 WARNING: [Synth 8-3917] design Nanoprocessor has port Anode[3] driven by constant 1
 WARNING: [Synth 8-3917] design Nanoprocessor has port Anode[2] driven by constant 1
 WARNING: [Synth 8-3917] design Nanoprocessor has port Anode[1] driven by constant 1
 WARNING: [Synth 8-3917] design Nanoprocessor has port Anode[0] driven by constant 0
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 437.621 ; gain = 152.820
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 490.965 ; gain = 151.539
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -128,41 +123,41 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 437.621 ; gain = 152.820
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 490.965 ; gain = 151.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 437.621 ; gain = 152.820
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 490.965 ; gain = 151.539
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/constrs_1/imports/Labs/Basys3Labs.xdc]
-Finished Parsing XDC File [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/constrs_1/imports/Labs/Basys3Labs.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/constrs_1/imports/Labs/Basys3Labs.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Nanoprocessor_propImpl.xdc].
+Parsing XDC File [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/constrs_1/imports/Labs/Basys3Labs.xdc]
+Finished Parsing XDC File [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/constrs_1/imports/Labs/Basys3Labs.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/constrs_1/imports/Labs/Basys3Labs.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Nanoprocessor_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Nanoprocessor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 769.918 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 823.559 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 769.918 ; gain = 485.117
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 823.559 ; gain = 484.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 769.918 ; gain = 485.117
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 823.559 ; gain = 484.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 769.918 ; gain = 485.117
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 823.559 ; gain = 484.133
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
@@ -173,14 +168,14 @@ INFO: [Synth 8-5544] ROM "LoadSel" won't be mapped to Block RAM because address 
 INFO: [Synth 8-5544] ROM "LoadSel" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "Sub" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "sevenSegment_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-WARNING: [Synth 8-327] inferring latch for variable 'LoadSel_reg' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Instruction_Decoder.vhd:59]
-WARNING: [Synth 8-327] inferring latch for variable 'ImVal_reg' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Instruction_Decoder.vhd:58]
-WARNING: [Synth 8-327] inferring latch for variable 'MSel1_reg' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Instruction_Decoder.vhd:64]
-WARNING: [Synth 8-327] inferring latch for variable 'MSel2_reg' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Instruction_Decoder.vhd:65]
-WARNING: [Synth 8-327] inferring latch for variable 'Sub_reg' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Instruction_Decoder.vhd:67]
-WARNING: [Synth 8-327] inferring latch for variable 'Address_reg' [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/new/Instruction_Decoder.vhd:80]
+WARNING: [Synth 8-327] inferring latch for variable 'LoadSel_reg' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd:59]
+WARNING: [Synth 8-327] inferring latch for variable 'ImVal_reg' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd:58]
+WARNING: [Synth 8-327] inferring latch for variable 'MSel1_reg' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd:64]
+WARNING: [Synth 8-327] inferring latch for variable 'MSel2_reg' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd:65]
+WARNING: [Synth 8-327] inferring latch for variable 'Sub_reg' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd:67]
+WARNING: [Synth 8-327] inferring latch for variable 'Address_reg' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd:80]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 769.918 ; gain = 485.117
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 823.559 ; gain = 484.133
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -195,7 +190,7 @@ Detailed RTL Component Info :
 +---Adders : 
 	   2 Input     32 Bit       Adders := 1     
 +---XORs : 
-	   2 Input      1 Bit         XORs := 14    
+	   2 Input      1 Bit         XORs := 19    
 +---Registers : 
 	               32 Bit    Registers := 1     
 	                4 Bit    Registers := 8     
@@ -250,6 +245,10 @@ Module HA
 Detailed RTL Component Info : 
 +---XORs : 
 	   2 Input      1 Bit         XORs := 1     
+Module AddSub4bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
 Module LUT_16_7 
 Detailed RTL Component Info : 
 +---Muxes : 
@@ -270,9 +269,9 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-6014] Unused sequential element P_Counter_0/D_FF_0/Qbar_reg was removed.  [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/D_FF.vhd:49]
-WARNING: [Synth 8-6014] Unused sequential element P_Counter_0/D_FF_1/Qbar_reg was removed.  [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/D_FF.vhd:49]
-WARNING: [Synth 8-6014] Unused sequential element P_Counter_0/D_FF_2/Qbar_reg was removed.  [C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.srcs/sources_1/imports/new/D_FF.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element P_Counter_0/D_FF_0/Qbar_reg was removed.  [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/D_FF.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element P_Counter_0/D_FF_1/Qbar_reg was removed.  [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/D_FF.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element P_Counter_0/D_FF_2/Qbar_reg was removed.  [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/D_FF.vhd:49]
 INFO: [Synth 8-5545] ROM "Slow_Clk_0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "Slow_Clk_0/clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 WARNING: [Synth 8-3917] design Nanoprocessor has port Anode[3] driven by constant 1
@@ -287,7 +286,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register
 WARNING: [Synth 8-3332] Sequential element (Instruction_Decoder_0/ImVal_reg[3]) is unused and will be removed from module Nanoprocessor.
 WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/Reg_0/Q_reg[0]) is unused and will be removed from module Nanoprocessor.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 769.918 ; gain = 485.117
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 823.559 ; gain = 484.133
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -299,13 +298,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 769.918 ; gain = 485.117
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 823.559 ; gain = 484.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 783.750 ; gain = 498.949
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 837.336 ; gain = 497.910
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -316,30 +315,30 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_3/Q_reg[1]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_4/Q_reg[1]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_3/Q_reg[0]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_4/Q_reg[0]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[0]'
 INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_6/Q_reg[1]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[1]'
-INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_5/Q_reg[1]' (FDRE) to 'Register_Bank_0/Reg_3/Q_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/Reg_5/Q_reg[1] )
 INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_6/Q_reg[0]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/Reg_5/Q_reg[0] )
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_3/Q_reg[2]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_4/Q_reg[2]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[2]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Instruction_Decoder_0/MSel2_reg[2] )
-INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_5/Q_reg[0]' (FDRE) to 'Register_Bank_0/Reg_3/Q_reg[0]'
-INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_6/Q_reg[3]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[3]'
-INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_5/Q_reg[3]' (FDRE) to 'Register_Bank_0/Reg_3/Q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_3/Q_reg[3]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_4/Q_reg[3]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[3]'
 INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_6/Q_reg[2]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[2]'
-INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_5/Q_reg[2]' (FDRE) to 'Register_Bank_0/Reg_3/Q_reg[2]'
-INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_3/Q_reg[1]' (FDRE) to 'Register_Bank_0/Reg_4/Q_reg[1]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/Reg_4/Q_reg[1] )
-INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_3/Q_reg[0]' (FDRE) to 'Register_Bank_0/Reg_4/Q_reg[0]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/Reg_4/Q_reg[0] )
-INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_3/Q_reg[3]' (FDRE) to 'Register_Bank_0/Reg_4/Q_reg[3]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/Reg_4/Q_reg[3] )
-INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_3/Q_reg[2]' (FDRE) to 'Register_Bank_0/Reg_4/Q_reg[2]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/Reg_4/Q_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/Reg_5/Q_reg[2] )
+INFO: [Synth 8-3886] merging instance 'Register_Bank_0/Reg_6/Q_reg[3]' (FDRE) to 'Register_Bank_0/Reg_5/Q_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Register_Bank_0/Reg_5/Q_reg[3] )
 WARNING: [Synth 8-3332] Sequential element (Instruction_Decoder_0/MSel2_reg[2]) is unused and will be removed from module Nanoprocessor.
-WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/Reg_4/Q_reg[1]) is unused and will be removed from module Nanoprocessor.
-WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/Reg_4/Q_reg[0]) is unused and will be removed from module Nanoprocessor.
-WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/Reg_4/Q_reg[3]) is unused and will be removed from module Nanoprocessor.
-WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/Reg_4/Q_reg[2]) is unused and will be removed from module Nanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/Reg_5/Q_reg[1]) is unused and will be removed from module Nanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/Reg_5/Q_reg[0]) is unused and will be removed from module Nanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/Reg_5/Q_reg[2]) is unused and will be removed from module Nanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Register_Bank_0/Reg_5/Q_reg[3]) is unused and will be removed from module Nanoprocessor.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 783.750 ; gain = 498.949
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 837.336 ; gain = 497.910
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -363,7 +362,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 783.750 ; gain = 498.949
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 837.336 ; gain = 497.910
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -376,7 +375,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 783.750 ; gain = 498.949
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 837.336 ; gain = 497.910
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -388,25 +387,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 783.750 ; gain = 498.949
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 837.336 ; gain = 497.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 783.750 ; gain = 498.949
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 837.336 ; gain = 497.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 783.750 ; gain = 498.949
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 837.336 ; gain = 497.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 783.750 ; gain = 498.949
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 837.336 ; gain = 497.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -425,10 +424,10 @@ Report Cell Usage:
 |1     |BUFG   |     1|
 |2     |CARRY4 |     8|
 |3     |LUT1   |     1|
-|4     |LUT2   |     6|
-|5     |LUT3   |    14|
-|6     |LUT4   |    17|
-|7     |LUT5   |    12|
+|4     |LUT2   |     5|
+|5     |LUT3   |    15|
+|6     |LUT4   |    18|
+|7     |LUT5   |    10|
 |8     |LUT6   |    10|
 |9     |FDRE   |    49|
 |10    |LD     |    12|
@@ -441,24 +440,24 @@ Report Instance Areas:
 +------+------------------------+--------------------+------+
 |      |Instance                |Module              |Cells |
 +------+------------------------+--------------------+------+
-|1     |top                     |                    |   150|
-|2     |  Instruction_Decoder_0 |Instruction_Decoder |    16|
-|3     |  P_Counter_0           |P_Counter           |    23|
-|4     |    D_FF_0              |D_FF                |     7|
-|5     |    D_FF_1              |D_FF_2              |    11|
+|1     |top                     |                    |   149|
+|2     |  Instruction_Decoder_0 |Instruction_Decoder |    14|
+|3     |  P_Counter_0           |P_Counter           |    24|
+|4     |    D_FF_0              |D_FF                |    11|
+|5     |    D_FF_1              |D_FF_2              |     8|
 |6     |    D_FF_2              |D_FF_3              |     5|
 |7     |  Register_Bank_0       |Register_Bank       |    37|
 |8     |    Reg_1               |Register_4_Bit      |     4|
-|9     |    Reg_2               |Register_4_Bit_0    |    14|
-|10    |    Reg_7               |Register_4_Bit_1    |    19|
+|9     |    Reg_2               |Register_4_Bit_0    |    22|
+|10    |    Reg_7               |Register_4_Bit_1    |    11|
 |11    |  Slow_Clk_0            |Slow_Clk            |    54|
 +------+------------------------+--------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 783.750 ; gain = 498.949
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 837.336 ; gain = 497.910
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 783.750 ; gain = 166.652
-Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 783.750 ; gain = 498.949
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 837.336 ; gain = 165.316
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 837.336 ; gain = 497.910
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -470,11 +469,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-136 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+132 Infos, 24 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:39 . Memory (MB): peak = 783.750 ; gain = 511.414
-WARNING: [Constraints 18-5210] No constraint will be written out.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/TOSHIBA/Vivado_Labs/Lab9-10/Lab9-10.runs/synth_1/Nanoprocessor.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 837.336 ; gain = 509.438
+INFO: [Common 17-1381] The checkpoint 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/synth_1/Nanoprocessor.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Nanoprocessor_utilization_synth.rpt -pb Nanoprocessor_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 783.750 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Wed Aug 17 20:50:13 2022...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 837.336 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 19 12:17:02 2025...

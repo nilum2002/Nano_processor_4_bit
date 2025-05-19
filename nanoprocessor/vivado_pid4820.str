@@ -1,0 +1,755 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 4820
+License: Customer
+
+Current time: 	Mon May 19 11:50:40 IST 2025
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 1 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/VIVADO/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/VIVADO/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	USER
+User home directory: C:/Users/USER
+User working directory: C:/Users/USER/Desktop/Nano Processor/nanoprocessor
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/VIVADO/Vivado
+HDI_APPROOT: D:/VIVADO/Vivado/2018.1
+RDI_DATADIR: D:/VIVADO/Vivado/2018.1/data
+RDI_BINDIR: D:/VIVADO/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/VIVADO/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/USER/Desktop/Nano Processor/nanoprocessor/vivado.log
+Vivado journal file location: 	C:/Users/USER/Desktop/Nano Processor/nanoprocessor/vivado.jou
+Engine tmp dir: 	C:/Users/USER/Desktop/Nano Processor/nanoprocessor/.Xil/Vivado-4820-LAPTOP-05AEB210
+
+GUI allocated memory:	187 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 620 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 64 MB (+65061kb) [00:00:05]
+// [Engine Memory]: 532 MB (+406526kb) [00:00:05]
+// Opening Vivado Project: C:\Users\USER\Desktop\Nano Processor\nanoprocessor\nanoprocessor.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.xpr} 
+// [GUI Memory]: 74 MB (+6277kb) [00:00:08]
+// [Engine Memory]: 623 MB (+67772kb) [00:00:08]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 632 MB. GUI used memory: 33 MB. Current time: 5/19/25 11:50:42 AM IST
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 680 MB (+26500kb) [00:00:11]
+// [Engine Memory]: 751 MB (+39039kb) [00:00:13]
+// Project name: nanoprocessor; location: C:/Users/USER/Desktop/Nano Processor/nanoprocessor; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 922.211 ; gain = 167.695 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddSub_4bit(Behavioral) (AddSub_4bit.vhd)]", 2); // B (D, ch)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddSub_4bit(Behavioral) (AddSub_4bit.vhd)]", 2); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd)]", 1, true); // B (D, ch) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Mon May 19 11:51:03 IST 2025
+# Process ID: 4820
+# OS: Windows 10
+# User: USER
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.IllegalArgumentException: setSelectedIndex: 0 out of bounds (See C:/Users/USER/Desktop/Nano Processor/nanoprocessor/vivado_pid4820.debug)
+*/
+// 'h' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // c (ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddSub_4bit(Behavioral) (AddSub_4bit.vhd)]", 2, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddSub_4bit(Behavioral) (AddSub_4bit.vhd)]", 2, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddSub_4bit(Behavioral) (AddSub_4bit.vhd)]", 2, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, ch)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aF (ch): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aF)
+dismissDialog("Remove Sources"); // aF (ch)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub_4bit.vhd}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {{C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub_4bit.vhd}} 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd)]", 1, true); // B (D, ch) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// Elapsed time: 25 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "AddSub_4bit"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// HOptionPane Warning: ''AddSub_4bit.vhd' already exists. Please enter another name. (Create Source File)'
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "AddSub4bit"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 51 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open {C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd}} 
+// I (ch): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// [GUI Memory]: 77 MB (+92kb) [00:01:52]
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd)]", 1); // B (D, ch)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd)]", 1); // B (D, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 771 MB. GUI used memory: 43 MB. Current time: 5/19/25 11:52:32 AM IST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("AddSub4bit.vhd", 350, 137); // cd (w, ch)
+typeControlKey((HResource) null, "AddSub4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 99, 179); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 81, 194); // cd (w, ch)
+// [GUI Memory]: 82 MB (+1058kb) [00:02:39]
+// Elapsed time: 31 seconds
+selectCodeEditor("AddSub4bit.vhd", 248, 249, false, true, false, false, false); // cd (w, ch) - Control Key
+typeControlKey((HResource) null, "AddSub4bit.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("AddSub4bit.vhd", 99, 59); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 74, 184); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 92, 58); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), Slow_Clk_0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("Nanoprocessor.vhd", 68, 146); // cd (w, ch)
+typeControlKey((HResource) null, "Nanoprocessor.vhd", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddSub4bit.vhd", 1); // k (j, ch)
+selectCodeEditor("AddSub4bit.vhd", 47, 59); // cd (w, ch)
+typeControlKey((HResource) null, "AddSub4bit.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nanoprocessor.vhd", 2); // k (j, ch)
+selectCodeEditor("Nanoprocessor.vhd", 70, 162); // cd (w, ch)
+typeControlKey((HResource) null, "Nanoprocessor.vhd", 'v'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddSub4bit.vhd", 1); // k (j, ch)
+// [GUI Memory]: 87 MB (+201kb) [00:03:52]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nanoprocessor.vhd", 2); // k (j, ch)
+selectCodeEditor("Nanoprocessor.vhd", 96, 212); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddSub4bit.vhd", 1); // k (j, ch)
+// [GUI Memory]: 92 MB (+1338kb) [00:04:00]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nanoprocessor.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddSub4bit.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nanoprocessor.vhd", 2); // k (j, ch)
+selectCodeEditor("Nanoprocessor.vhd", 88, 231); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddSub4bit.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nanoprocessor.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddSub4bit.vhd", 1); // k (j, ch)
+selectCodeEditor("AddSub4bit.vhd", 77, 147); // cd (w, ch)
+typeControlKey((HResource) null, "AddSub4bit.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nanoprocessor.vhd", 2); // k (j, ch)
+selectCodeEditor("Nanoprocessor.vhd", 77, 249); // cd (w, ch)
+typeControlKey((HResource) null, "Nanoprocessor.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "Nanoprocessor.vhd", 'v'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddSub4bit.vhd", 1); // k (j, ch)
+selectCodeEditor("AddSub4bit.vhd", 80, 147); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 80, 147, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("AddSub4bit.vhd", 78, 150); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 78, 150); // cd (w, ch)
+typeControlKey((HResource) null, "AddSub4bit.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nanoprocessor.vhd", 2); // k (j, ch)
+selectCodeEditor("Nanoprocessor.vhd", 78, 247); // cd (w, ch)
+typeControlKey((HResource) null, "Nanoprocessor.vhd", 'v'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AddSub4bit.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nanoprocessor.vhd", 2); // k (j, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("Nanoprocessor.vhd", 117, 147); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("Nanoprocessor.vhd", 117, 147); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 52, 147); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 194, 144); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 194, 144, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("Nanoprocessor.vhd", 194, 144); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 68, 39); // cd (w, ch)
+typeControlKey((HResource) null, "Nanoprocessor.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 88, 44); // cd (w, ch)
+typeControlKey((HResource) null, "Nanoprocessor.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 67, 41); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 95, 111); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 84, 130); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 104, 147); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 110, 164); // cd (w, ch)
+// Elapsed time: 61 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 15, false); // B (D, ch)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), MUX_2_W_3_0 : MUX_2_W_3(Behavioral) (MUX_2_W_3.vhd)]", 12); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : xil_defaultlib.AddSub_4bit]", 10, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 18, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 18, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 97 MB (+475kb) [00:08:00]
+// Tcl Message: [Mon May 19 11:58:33 2025] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_FAILED
+// ah (ch): Synthesis Failed: addNotify
+// Elapsed time: 159 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ch)
+// [Engine Memory]: 792 MB (+2945kb) [00:10:44]
+// HMemoryUtils.trashcanNow. Engine heap size: 792 MB. GUI used memory: 45 MB. Current time: 5/19/25 12:01:17 PM IST
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub_4bit(Behavioral) (AddSub4bit.vhd)]", 10); // B (D, ch)
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+// Elapsed time: 13 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), MUX_2_W_3_0 : MUX_2_W_3(Behavioral) (MUX_2_W_3.vhd)]", 16); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub_4bit(Behavioral) (AddSub4bit.vhd), FA0 : FA(Behavioral) (FA.vhd)]", 11); // B (D, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-285] failed synthesizing module 'AddSub_4bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:43]. ]", 2, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\USER\Desktop\Nano Processor\nanoprocessor\nanoprocessor.srcs\sources_1\new\AddSub4bit.vhd;-;;-;16;-;line;-;43;-;;-;16;-;"); // ah (O, ch)
+selectCodeEditor("AddSub4bit.vhd", 101, 57); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 243, 214); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 78, 179); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nanoprocessor.vhd", 2); // k (j, ch)
+selectCodeEditor("Nanoprocessor.vhd", 146, 180); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 170, 176); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 123, 190); // cd (w, ch)
+selectCodeEditor("Nanoprocessor.vhd", 116, 83); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Mon May 19 12:03:03 2025] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_FAILED
+// ah (ch): Synthesis Failed: addNotify
+// Elapsed time: 18 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-285] failed synthesizing module 'AddSub4bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:43]. ]", 2, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\USER\Desktop\Nano Processor\nanoprocessor\nanoprocessor.srcs\sources_1\new\AddSub4bit.vhd;-;;-;16;-;line;-;43;-;;-;16;-;"); // ah (O, ch)
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 10); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 10, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 10, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Mon May 19 12:04:27 2025] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Arithmatic_Unit(Behavioral) (Arithmatic_Unit.vhd)]", 14); // B (D, ch)
+// TclEventType: RUN_FAILED
+// ah (ch): Synthesis Failed: addNotify
+// Elapsed time: 13 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-285] failed synthesizing module 'AddSub4bit' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:43]. ]", 2, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\USER\Desktop\Nano Processor\nanoprocessor\nanoprocessor.srcs\sources_1\new\AddSub4bit.vhd;-;;-;16;-;line;-;43;-;;-;16;-;"); // ah (O, ch)
+// Elapsed time: 15 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3493] module 'fa' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:34' does not have matching formal port for component port 'q' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:62]. ]", 1, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\USER\Desktop\Nano Processor\nanoprocessor\nanoprocessor.srcs\sources_1\new\AddSub4bit.vhd;-;;-;16;-;line;-;62;-;;-;16;-;"); // ah (O, ch)
+// Elapsed time: 41 seconds
+selectCodeEditor("AddSub4bit.vhd", 107, 188, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3493] module 'fa' declared at 'C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/imports/new/FA.vhd:34' does not have matching formal port for component port 'q' [C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.srcs/sources_1/new/AddSub4bit.vhd:62]. ]", 1, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\USER\Desktop\Nano Processor\nanoprocessor\nanoprocessor.srcs\sources_1\new\AddSub4bit.vhd;-;;-;16;-;line;-;62;-;;-;16;-;"); // ah (O, ch)
+// Elapsed time: 26 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), P_Counter_0 : P_Counter(Behavioral) (P_Counter.vhd)]", 3); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 13); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd), FA0 : FA(Behavioral) (FA.vhd)]", 14, true); // B (D, ch) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd), FA0 : FA(Behavioral) (FA.vhd)]", 14); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd), FA0 : FA(Behavioral) (FA.vhd), HA_0 : HA(Behavioral) (HA.vhd)]", 15, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd), FA0 : FA(Behavioral) (FA.vhd), HA_0 : HA(Behavioral) (HA.vhd)]", 15, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd), FA0 : FA(Behavioral) (FA.vhd), HA_0 : HA(Behavioral) (HA.vhd)]", 15, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd), FA0 : FA(Behavioral) (FA.vhd)]", 14, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd), FA0 : FA(Behavioral) (FA.vhd)]", 14, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd), FA0 : FA(Behavioral) (FA.vhd)]", 14, true); // B (D, ch) - Node
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 13, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 13, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// [GUI Memory]: 106 MB (+4194kb) [00:16:19]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), AddSub4bit_0 : AddSub4bit(Behavioral) (AddSub4bit.vhd)]", 13, true); // B (D, ch) - Node
+// Elapsed time: 33 seconds
+selectCodeEditor("AddSub4bit.vhd", 5, 179); // cd (w, ch)
+// Elapsed time: 36 seconds
+selectCodeEditor("AddSub4bit.vhd", 92, 175); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 8, 130); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 27, 110); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 11, 125); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 11, 134); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 12, 176); // cd (w, ch)
+selectCodeEditor("AddSub4bit.vhd", 8, 199); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Mon May 19 12:08:55 2025] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 60 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Mon May 19 12:09:58 2025] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 813 MB. GUI used memory: 47 MB. Current time: 5/19/25 12:10:47 PM IST
+// Elapsed time: 155 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Mon May 19 12:12:40 2025] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 55 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Mon May 19 12:13:37 2025] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 50 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Mon May 19 12:14:30 2025] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ch): Bitstream Generation Completed: addNotify
+// Elapsed time: 49 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bv (ch):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 942 MB. GUI used memory: 48 MB. Current time: 5/19/25 12:15:22 PM IST
+// [Engine Memory]: 970 MB (+145928kb) [00:24:52]
+// [Engine Memory]: 1,179 MB (+168279kb) [00:24:57]
+// [Engine Memory]: 1,295 MB (+59778kb) [00:25:02]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,595 MB. GUI used memory: 47 MB. Current time: 5/19/25 12:15:35 PM IST
+// [Engine Memory]: 1,599 MB (+250140kb) [00:25:03]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,698 MB (+20249kb) [00:25:04]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1817.840 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1817.840 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 1 instances were transformed.   LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// Tcl Message: open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1918.336 ; gain = 929.016 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dO' command handler elapsed time: 18 seconds
+// [GUI Memory]: 117 MB (+5174kb) [00:25:07]
+// Elapsed time: 19 seconds
+dismissDialog("Open Implemented Design"); // bv (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 32, true); // u (O, ch) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bv (ch):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// [GUI Memory]: 126 MB (+3903kb) [00:25:11]
+dismissDialog("Open Hardware Manager"); // bv (ch)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8A8CFA 
+// bv (ch):  Auto Connect : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/impl_1/Nanoprocessor.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+// [Engine Memory]: 2,352 MB (+596607kb) [00:25:17]
+dismissDialog("Auto Connect"); // bv (ch)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ch)
+// [GUI Memory]: 133 MB (+526kb) [00:25:18]
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ch): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bv (ch):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ch)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/impl_1/Nanoprocessor.bit} [get_hw_devices xc7a35t_0] 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,365 MB. GUI used memory: 93 MB. Current time: 5/19/25 12:15:53 PM IST
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bv (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, ch) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), Slow_Clk_0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), Slow_Clk_0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), Slow_Clk_0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 2, false); // B (D, ch)
+selectCodeEditor("Slow_Clk.vhd", 163, 162); // cd (w, ch)
+selectCodeEditor("Slow_Clk.vhd", 170, 145); // cd (w, ch)
+typeControlKey((HResource) null, "Slow_Clk.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Slow_Clk.vhd", 156, 163); // cd (w, ch)
+typeControlKey((HResource) null, "Slow_Clk.vhd", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Mon May 19 12:16:31 2025] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/synth_1/runme.log 
+// [GUI Memory]: 145 MB (+5710kb) [00:26:00]
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 35 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Mon May 19 12:17:09 2025] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 57 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Mon May 19 12:18:08 2025] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ch): Bitstream Generation Completed: addNotify
+// Elapsed time: 46 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// aM (ch): Open New Hardware Target: addNotify
+// 'H' command handler elapsed time: 3 seconds
+dismissDialog("Open New Hardware Target"); // aM (ch)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ch)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ch): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bv (ch):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ch)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/impl_1/Nanoprocessor.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bv (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,433 MB. GUI used memory: 98 MB. Current time: 5/19/25 12:19:13 PM IST
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A8A8CFA 
+// n (ch): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 24 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (ch)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ch)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ch): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bv (ch):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ch)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Nano Processor/nanoprocessor/nanoprocessor.runs/impl_1/Nanoprocessor.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
