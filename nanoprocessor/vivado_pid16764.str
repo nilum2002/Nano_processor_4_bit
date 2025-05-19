@@ -755,3 +755,5 @@ selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PR
 #--------------------------------------------------------------------------
 java.lang.IllegalArgumentException: setSelectedIndex: 0 out of bounds (See C:/Users/USER/Desktop/Nano Processor/nanoprocessor/vivado_pid16764.debug)
 */
+selectButton(RDIResource.HExceptionDialog_EXIT, "Exit"); // a (ae, aa)
+// an (ch): Save Project: addNotify
